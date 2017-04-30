@@ -54,6 +54,6 @@ app.use("/merangkak", merangkakRoutes);
 
 /*
 app.listen(process.env.PORT, process.env.IP, function(){*/
-app.listen(1337, '127.0.0.1', function(){
+app.listen(3000, function(){
     console.log("Merangkak Server Has Started!!!");
 });
